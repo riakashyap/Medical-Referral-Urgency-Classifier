@@ -1,11 +1,12 @@
+## **Medical Synthetic Referral Classification**
 
-Medical Synthetic Referral Classification
 
-=> Objective
+### **=> Objective**
+
 Simulate a healthcare setting where real clinical data is unavailable due to privacy laws. Generate synthetic medical referral documents and build a classifier to categorize them by:
 Urgency: routine vs urgent
 
-=> Tasks Overview
+### **=> Tasks Overview**
 1) Generate Synthetic Referral Records
 Programmatically create realistic PDF/image referral documents with varied patient cases and regional formats (e.g., Ontario vs. BC).
 
@@ -21,7 +22,8 @@ Build an ML model (e.g., fine-tuned BERT or SVM) to classify referrals from unst
 5) Reflect & Report
 Document your process, challenges (e.g., class imbalance, realism), and potential real-world applications. Address risks of synthetic data and suggest next steps for production readiness.
 
-=> Real-World Impact
+### **=> Real-World Impact**
+
 This mirrors real hospital workflows, where auto-triaging of referrals can accelerate patient care. Use this project to explore how AI + synthetic data can enable safe prototyping in sensitive domains.
 
 Medical_Referral_Urgency_Classifier_with_UrgencyColumn.ipynb – This notebook uses a dataset with a dedicated Urgency column and performs classification from scratch using that label.
